@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Voir les photos</title>
+</head>
+
+<body style="text-align:center; font-family:Arial; margin-top:50px; background-color:#f5f5f5;">
+
+  <h2>📸 Cliquez pour voir les photos</h2>
+
+  <button onclick="showMessage()" style="padding:15px; font-size:18px; cursor:pointer;">
+    Voir les photos
+  </button>
+
+  <div id="warning" style="display:none; text-align:center; margin-top:50px; background:white; padding:20px; border-radius:10px; width:60%; margin-left:auto; margin-right:auto; box-shadow:0px 0px 10px rgba(0,0,0,0.2);">
+    
+    <h1 style="color:red;">⚠️ LAST WARNING ⚠️</h1>
+    
+    <p style="font-size:20px;">
+      Hadchi ghir tajriba pédagogique.<br><br>
+      Lmerra jaya, ila klikiti 3la lien ma m3rofch,<br>
+      momkin t9a3 f phishing w t9der tf9ed données dyalek!
+    </p>
+
+    <p style="font-weight:bold;">🔐 Khalli balek mn liens!</p>
+
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("warning").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
